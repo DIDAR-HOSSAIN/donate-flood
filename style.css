@@ -2,12 +2,12 @@
     background-image: url(images/donation3.jpg);
     font-size: 30px;
     background-repeat: no-repeat;
-    background-size: 100%;    
-    padding: 50px;
+    background-size: 100 auto;   
+    padding: 100px;
 }
 
 .headLine{
-    line-height:10px;
+    line-height:80px;
     font-size: 100px;
     color: white;
     text-align: center;
@@ -24,12 +24,13 @@ p{
 .donateButton{
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
-    /* text-align: center; */
+    text-align: center;
     color: white;
-    padding: 20px 30px;
+    padding: 20px 20px;
     border-radius: 10px;
-    margin: 40%;
     font-size: 30px;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
 #secondHeader{
@@ -46,11 +47,11 @@ p{
 ul{
     display: flex;
     list-style: none;
-    margin-left: 15%;
+    
 }
 
 .list{
-    background-color: rgb(221, 227, 230) ;
+    background-color: rgba(211, 182, 182, 0.26) ;
     width: 120px;
     height: 70px;
     padding: 40px;
@@ -74,10 +75,10 @@ ul{
 
 input{
     text-align: center;
+    margin-left: 4%;
     font-size: 30px;
-    width: 500px;
+    width: 1130px;
     height: 50px;
-    margin-left: 35%;
     outline: 0;
     border-width: 0 0 2px;
 }
@@ -85,18 +86,41 @@ input{
 section{
     display: flex;
     margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
     
 }
 
-.thirdDiv{
-    background-color: rgb(221, 227, 230) ;
-    width: 30%;
-    height: 50%;
+.thirdDivAnothercolor{
+    background-image: url(../donate-flood/icons/food.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-color: #D6EAF8 ;
     padding: 40px;
     margin: 15px;
     font-size: 20px;
 
 }
 
+.thirdDiv{
+    background-image: url(../donate-flood/icons/shelter.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-color: rgb(221, 227, 230) ;
+    padding: 40px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.childIcon{
+    background-image: url(../donate-flood/icons/Frame-1.png);
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding: 30px;
+    font-size: 50px;
+
+}

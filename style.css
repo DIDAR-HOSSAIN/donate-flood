@@ -3,5 +3,100 @@
     font-size: 30px;
     background-repeat: no-repeat;
     background-size: 100%;    
-    padding: 10px;
+    padding: 50px;
 }
+
+.headLine{
+    line-height:10px;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin: 8%;
+}
+
+.donateButton{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    /* text-align: center; */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 40%;
+    font-size: 30px;
+}
+
+#secondHeader{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+}
+#secondParagraph{
+    font-family: 'Merriweather', serif;
+    font-family: 'Neuton', serif;
+    color: black;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 15%;
+}
+
+.list{
+    background-color: rgb(221, 227, 230) ;
+    width: 120px;
+    height: 70px;
+    padding: 40px;
+    margin: 15px;
+    font-size: 50px;
+    
+}
+
+#borderTyp{
+    background-color: pink ;
+    border: solid 5px rgb(207, 81, 102);
+    box-shadow: 10px 10px 10px 10px whitesmoke;
+    width: 120px;
+    height: 60px;
+    padding: 40px;
+    margin: 15px;
+    color: rgb(207, 81, 102);
+    font-size: 50px;
+
+}
+
+input{
+    text-align: center;
+    font-size: 30px;
+    width: 500px;
+    height: 50px;
+    margin-left: 35%;
+    outline: 0;
+    border-width: 0 0 2px;
+}
+
+section{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.thirdDiv{
+    background-color: rgb(221, 227, 230) ;
+    width: 30%;
+    height: 50%;
+    padding: 40px;
+    margin: 15px;
+    font-size: 20px;
+
+}
+
